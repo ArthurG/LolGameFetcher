@@ -64,13 +64,9 @@ for name in usernames :
 	requests+=1
 	print(f"{matchlist['totalGames']} games found. Retrieving the 100 last games to avoid API request overflow.")
 	
-	#for game in matchlist['matches']:
-	#	print(lol_watcher.match.by_id(my_region, game['gameId']))
 	
 	for match in matchlist['matches']:
 
-		#match = matchlist['matches'][0]['gameId']
-		#print(lol_watcher.match.by_id(my_region, match)['participants'][1])
 		try : 
 			match = lol_watcher.match.by_id(my_region, match['gameId'])
 			requests+=1
