@@ -8,5 +8,7 @@ make sure to have the riotwatcher module installed :
 `pip install riotwatcher`
 
 then create two files in the directory :
+
 -One file named "key.txt", in which you will paste your riot games API Key
+
 -One file named "usernames.txt", in which you will enter the usernames you want to fetch. Write every username on a new line.
