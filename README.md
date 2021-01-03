@@ -21,6 +21,7 @@ The riot API keys are limited in the number of requests you can do by second and
 The basic, temporary API key is limited to:
 - 20 requests every 1 seconds(s)
 - 100 requests every 2 minutes(s)
+
 For this reason, I volontarly slowed down the process (`time.sleep(125)` between two users) to avoid errors because of this limitation.
 You can manually change this if you own a less limited API key.
 
