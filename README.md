@@ -14,7 +14,9 @@ then create two files in the directory :
 The script will now parse all the information and store everything in a newly created "output" folder.
 the file will have this form : 
 `<pseudo>_<date>.csv`
+It will also create a JSON file containing ALL the informations about the games if you want to parse it yourself later on. The file has the same format as the csv file. This file is very large and your text editor will probably crash if you try open it as it.
 
+The program will run again every single hour.
 ## Important notice
 
 The riot API keys are limited in the number of requests you can do by second and minute.
