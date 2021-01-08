@@ -45,7 +45,7 @@ a = input("Press enter to confirm")
 while True :
 	print("NEW PASS")
 	for name in usernames :
-
+		name = name.strip()
 		now = int(datetime.datetime.now().timestamp())
 		
 		#exit()
